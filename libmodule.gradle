@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
-apply from: "$rootDir/android-common-lib/publish.gradle"
+apply from: "$rootDir/commonlib/publish.gradle"
 
 android {
     compileSdkVersion project.ext.compiledSdkVersion

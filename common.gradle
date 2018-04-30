@@ -1,4 +1,4 @@
-apply from: "$rootDir/android-common-lib/dependencies.gradle"
+apply from: "$rootDir/commonlib/dependencies.gradle"
 
 allprojects {
     buildscript {
