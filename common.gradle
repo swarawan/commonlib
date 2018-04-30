@@ -1,0 +1,46 @@
+apply from: "$rootDir/android-common-lib/dependencies.gradle"
+
+allprojects {
+    buildscript {
+        repositories {
+            google()
+            jcenter()
+            mavenCentral()
+            maven { url "https://jitpack.io" }
+            maven { url 'https://maven.fabric.io/public' }
+        }
+        dependencies {
+            classpath 'com.android.tools.build:gradle:3.0.1'
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+            classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.7.0"
+            classpath 'io.fabric.tools:gradle:1.25.2'
+            classpath 'com.google.gms:google-services:3.1.0'
+            classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+            // NOTE: Do not place your application dependencies here; they belong
+            // in the individual module build.gradle files
+        }
+    }
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    project.ext {
+        buildToolVersion = "26.0.2"
+        minSdkVersion = 19
+        targetSdkVersion = 26
+        compiledSdkVersion = 26
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.1'
+}
