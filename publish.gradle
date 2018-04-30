@@ -4,7 +4,7 @@ apply plugin: 'com.github.dcendents.android-maven'
 publishing {
     publications {
         aar(MavenPublication) {
-            setGroupId 'com.gitlab.alienator'
+            setGroupId 'com.github.swarawan'
             artifactId project.getName()
             version libraryVersion
             artifact("$buildDir/outputs/aar/${project.getName()}-release.aar")
