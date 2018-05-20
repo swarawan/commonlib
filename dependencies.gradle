@@ -79,6 +79,7 @@ ext {
             firebaseMessaging           : "com.google.firebase:firebase-messaging:${playServiceVersion}",
             firebaseRealtimeDatabase    : "com.google.firebase:firebase-database:${playServiceVersion}",
             firebaseAuth                : "com.google.firebase:firebase-auth:${playServiceVersion}",
+            firebaseAds                 : "com.google.firebase:firebase-ads:${playServiceVersion}",
             threetenabp                 : "com.jakewharton.threetenabp:threetenabp:1.0.5",
             jsoup                       : "org.jsoup:jsoup:1.10.2",
             room                        : "android.arch.persistence.room:runtime:${archPersistentVersion}",
