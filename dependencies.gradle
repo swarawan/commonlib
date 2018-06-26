@@ -20,7 +20,7 @@ ext {
     playServiceVersion = '11.6.0'
     mixpanelVersion = '5.1.4'
     leakCanaryVersion = '1.5.4'
-    archPersistentVersion = "1.0.0"
+    archPersistentVersion = "1.1.1"
 
     supportDependencies = [
             support         : "com.android.support:support-v4:${supportLibraryVersion}",
