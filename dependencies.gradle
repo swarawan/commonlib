@@ -85,6 +85,7 @@ ext {
             threetenabp              : "com.jakewharton.threetenabp:threetenabp:1.0.5",
             jsoup                    : "org.jsoup:jsoup:1.10.2",
             room                     : "android.arch.persistence.room:runtime:${archPersistentVersion}",
+            roomCompiler             : "android.arch.persistence.room:compiler:${archPersistentVersion}",
             rxRoom                   : "android.arch.persistence.room:rxjava2:${archPersistentVersion}",
             chart                    : "com.github.PhilJay:MPAndroidChart:${chartVersion}"
     ]
