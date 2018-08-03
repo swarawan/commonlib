@@ -1,5 +1,5 @@
 ext {
-    kotlinVersion = '1.2.51'
+    kotlinVersion = '1.2.50'
     supportLibraryVersion = '27.1.0'
     eventBusVersion = '3.0.0'
     okHttp3Version = '3.8.1'
