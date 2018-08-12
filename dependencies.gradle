@@ -87,7 +87,8 @@ ext {
             room                     : "android.arch.persistence.room:runtime:${archPersistentVersion}",
             roomCompiler             : "android.arch.persistence.room:compiler:${archPersistentVersion}",
             rxRoom                   : "android.arch.persistence.room:rxjava2:${archPersistentVersion}",
-            chart                    : "com.github.PhilJay:MPAndroidChart:${chartVersion}"
+            chart                    : "com.github.PhilJay:MPAndroidChart:${chartVersion}",
+            bluetooth                : "com.github.douglasjunior.AndroidBluetoothLibrary:BluetoothClassicLibrary:0.3.5"
     ]
 
     testSupportDependencies = [
