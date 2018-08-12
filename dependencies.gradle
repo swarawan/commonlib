@@ -79,7 +79,7 @@ ext {
             debugLeakCanary          : "com.squareup.leakcanary:leakcanary-android:${leakCanaryVersion}",
             releaseLeakCanary        : "com.squareup.leakcanary:leakcanary-android-no-op:${leakCanaryVersion}",
             firebaseCore             : "com.google.firebase:firebase-core:${firebaseVersion}",
-            firebaseRemoteConfig     : "com.google.firebase:firebase-config:${firebaseVersion}",
+            firebaseRemoteConfig     : "com.google.firebase:firebase-config:16.0.0",
             firebaseMessaging        : "com.google.firebase:firebase-messaging:17.1.0",
             firebaseRealtimeDatabase : "com.google.firebase:firebase-database:${firebaseVersion}",
             firebaseAuth             : "com.google.firebase:firebase-auth:${firebaseVersion}",
